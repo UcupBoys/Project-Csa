@@ -58,7 +58,7 @@
         <input type="text" placeholder="Masukan Email" id="name">
         <label for="">Password:</label>
         <input type="password" placeholder="Masukan Password" id="sandi">
-        <button type="submit" class="btn2">Login be oi</button>
+        <button type="submit" class="btn2">Login</button>
   </form>
        </div>
         </div>
