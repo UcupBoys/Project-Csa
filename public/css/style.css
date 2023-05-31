@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+    background-color: #E5B53D;
+
+}
+.background img {
+    width: 52%;
+    position: absolute;
+    left: 50vw;
+    z-index: -1;
+}
+a {
+    text-decoration: underline;
+    color: white;
+}
+a:hover{
+    color:#C4DFDF;
+}
+
+.buttom {
+    width: 280px;
+}
+a:last-child{
+    margin-left: 32.3%;
+}
+button {
+    margin-bottom: 20px;
+}
+
+
+
+.login {
+    position:absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    background: rgb(0,0,0,0.5);
+    padding: 20px;
+    width: 270px;
+    box-shadow: 0 0 10px 5px black;
+
+}
+.avatar{
+    font-size: 50px;
+    background: #bdc3c7;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50% );
+    border-radius: 50%;
+}
+.login h2{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 5px;
+
+}
+
+.box-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+
+}
+.box-login i {
+    font-size: 20px;
+    color: white;
+
+}
+.box-login input{
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+.box-login input::placeholder{
+    color: white;
+}
+
+.btn-login{
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.btn-login:hover{
+    background: rgba(0,0,0,0.8);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.bottom a {
+    color: white;
+    font-size: 14px;
+    justify-content: none;
+}
+.bottom a:hover {
+    text-decoration: underline;
+    
+}
+ 
