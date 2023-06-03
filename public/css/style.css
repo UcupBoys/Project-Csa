@@ -120,3 +120,53 @@ button {
     
 }
  
+
+/* CSS untuk bagian Register */
+
+   .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.overlay h2{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 4px;
+
+
+}
+
+.popup {
+    position:absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    background: #526D82;
+    padding: 20px;
+    width: 270px;
+    box-shadow: 0 0 10px 5px black;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.register-link {
+    cursor: pointer;
+    color: white;
+}
+
+
